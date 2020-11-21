@@ -21,7 +21,7 @@ Can you identify for-profit and non-profit entities that are aligned with Unders
 Can you identify how close each company is to Understood's mission
 
 
-## Top Ranked Companies:
+## Our Top Ranked Companies:
 1. Connection Fund, Inc.
 2. Essex County
 3. Arc Facilities Inc
@@ -34,14 +34,14 @@ Can you identify how close each company is to Understood's mission
 10. Friends Academy 
 11. The Packer Collegiate Institute
 
-## Feature Importance:
+## Our Feature Importance:
 1. Total Revenue (37%)
 2. Total Assets (22%)
 3. Number of Employees (12.5%)
 4. Others (29.5%)
 
 
-## Summary: 
+## Our Summary: 
 * During the data collection process, we found a dataset of 3002 non-profit organizations from GuideStar and attempted to scrape the mission statements using the links provided by the GuideStar but we were blocked out 
 * We cleaned the 3002 data and sorted out the “Total Asset”, “Total Revenue” and “Employee” columns without any null values inside it
 * Utilized Decision Trees to compute feature importance
