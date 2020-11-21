@@ -1,8 +1,10 @@
 # DSC @ NYU 2020 Datathon
-<i> In Association with Understood.org</i>
+*In Association with Understood.org*
+
+https://dsc-nyu.github.io/datathon/
 
 ## Datathon Primary Directive:
-# Tasks:
+**Tasks:**
 * Build an automated tool to create and populate a dataset of companies that have potential to partner with Understood.org.
 * Build logic for Understood.org to score how closely each company aligns with their mission statement.
 * Your approach should be built with latency in mind although the way you score how each company aligns with Understood is up to you.
@@ -13,7 +15,7 @@ Examples of companies who do not align with Understood's mission statement:
 * Exxon Mobile
 
 
-### Scoring:
+**Scoring:**
 How many useful entities (rows) and features (columns) can you bring to the dataset?
 Is the information usable in the long term? Can it be refreshed as it gets outdated?
 Latency of your model
@@ -50,4 +52,7 @@ Can you identify how close each company is to Understood's mission
 * We calculate the distance of the potential companies with the center and find out the top-ten closest companies
 * We also plot all the potential companies in a 3-d graph
 
+Team: LNECH
+
+Thank you to Kyle Ma, Esther Wu, Lucy Wu, and Christian Zhao.
 
