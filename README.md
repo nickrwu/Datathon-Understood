@@ -44,10 +44,10 @@ Can you identify how close each company is to Understood's mission
 
 
 ## Our Summary: 
-* During the data collection process, we found a dataset of 3002 non-profit organizations from GuideStar and attempted to scrape the mission statements using the links provided by the GuideStar but we were blocked out 
+* During the data collection process, we found a dataset of 3002 non-profit organizations from GuideStar and scraped the mission statements using the links provided by the GuideStar
 * We cleaned the 3002 data and sorted out the “Total Asset”, “Total Revenue” and “Employee” columns without any null values inside it
 * Utilized Decision Trees to compute feature importance
-* To set the partner criteria, we searched on the 20 partners that we already have and sorted out the most frequently appeared words in their mission statements
+* To set the partner criteria, we tested on the 20 organizations that Understood already is partnered with and parsed the most frequently appeared words in their mission statements
 * We also calculated their median value of the total asset, total revenue, and employee. We then vectorize the three criterias and generate a center
 * We calculate the distance of the potential companies with the center and find out the top-ten closest companies
 * We also plot all the potential companies in a 3-d graph
